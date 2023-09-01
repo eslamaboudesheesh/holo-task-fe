@@ -1,0 +1,35 @@
+.search-page-container {
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .search-wrapper {
+        width: fit-content;
+        margin-left: 30rem;
+        margin-right: 30rem;
+        margin-bottom: 2rem;
+        transition: all 2s ease-in-out;
+
+        &.Active-result {
+            margin-left: 1rem;
+            margin-right: 0;
+        }
+
+        .search-input {
+            display: flex;
+            flex-direction: row;
+        }
+
+    }
+
+    .search-result-wrapper {
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); // 4 columns by default
+
+        @media screen and (max-width: 768px) {
+            grid-template-columns: repeat(2, 1fr); // 2 columns on screens <= 768px
+        }
+    }
+}
