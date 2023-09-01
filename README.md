@@ -38,4 +38,4 @@ Redux and redux-persist
 React Router
 SCSS
 GitHub API
-For information on how to use the GitHub Search API to fetch data for users, repositories, or issues, please refer to the GitHub Search API Docs.
+For information on how to use the GitHub Search API to fetch data for users, repositories, please refer to the GitHub Search API Docs.
